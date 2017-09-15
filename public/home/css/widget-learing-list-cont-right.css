@@ -1,0 +1,38 @@
+/*
+ * colors variables
+ */
+.list-cont-right {
+  margin: 15px 0px;
+}
+
+.list-cont-right .right-box {
+  background: #fff;
+  padding: 15px;
+}
+
+.list-cont-right .tit {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 36px;
+  text-align: center;
+  border-bottom: solid 2px #999;
+}
+
+.list-cont-right .contList li {
+  padding: 5px 0;
+  margin: 5px 0;
+  list-style: none;
+  border-bottom: dashed 1px #999;
+}
+
+.list-cont-right .contList li p:nth-child(3) {
+  color: #999;
+}
+
+.list-cont-right .contList li img {
+  float: left;
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+}

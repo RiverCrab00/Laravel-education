@@ -1,0 +1,210 @@
+/*
+ * colors variables
+ */
+html, body {
+  min-height: 100%;
+  min-width: 1366px;
+  background: #f4f4f4;
+}
+
+a {
+  color: #2da1e7;
+}
+
+a:hover {
+  color: #2da1e7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0;
+  line-height: 200%;
+}
+
+em, i {
+  font-style: normal;
+}
+
+.cr-pd-mr {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cl-red {
+  color: red !important;
+}
+
+.more {
+  color: #2da1e7;
+}
+
+.hv-poin:hover {
+  cursor: pointer;
+}
+
+.pd-left {
+  padding-left: 15px;
+}
+
+.pd-rit {
+  padding-right: 15px;
+}
+
+.btn-primary {
+  background: #57bc4c;
+  border: none;
+}
+
+.course-cont {
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  background: #333;
+  padding: 0 !important;
+  border-right: solid 1px #333;
+  overflow: auto;
+}
+
+.course-cont .video-box {
+  position: absolute;
+  right: 0px;
+  width: 100%;
+}
+
+.course-cont .video-box i:before {
+  top: 11px;
+  position: relative;
+}
+
+.course-cont .video-box .top {
+  font-size: 24px;
+  line-height: 50px;
+  background: #12191e;
+  padding: 0 15px;
+  color: #999;
+}
+
+.course-cont .video {
+  font-size: 24px;
+  color: #999;
+  position: relative;
+}
+
+.course-cont .video img {
+  width: 100%;
+  max-width: 1366px;
+}
+
+.course-cont .video span {
+  padding-right: 20px;
+}
+
+.course-cont .video .video-play {
+  position: relative;
+}
+
+.course-cont .video .but-ico {
+  position: absolute;
+  bottom: 65px;
+  right: 15px;
+}
+
+.course-cont .subtitle-cont {
+  background: #fff;
+  border-left: solid 1px #333;
+  color: #333;
+  padding: 0 15px 60px 15px;
+}
+
+.course-cont .subtitle-cont .tit {
+  padding-top: 10px;
+  line-height: 40px;
+  font-size: 24px;
+  border-bottom: solid 1px #787d82;
+}
+
+.course-cont .subtitle-cont .search-area {
+  padding: 10px;
+}
+
+.course-cont .subtitle-cont .video-textes li {
+  margin: 10px 0;
+  list-style: none;
+  line-height: 200%;
+}
+
+.course-cont .subtitle-cont .video-textes li span {
+  display: block;
+  color: #2da1e7;
+}
+
+.course-cont .course-weeklist {
+  height: 100%;
+  position: absolute;
+  left: -380px;
+  top: 0px;
+  width: 380px;
+  background: #12191e;
+}
+
+.course-cont .course-weeklist .tit {
+  padding: 0 15px;
+  line-height: 50px;
+  font-size: 20px;
+  border-bottom: solid 1px #333;
+  background: #12191e;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.course-cont .course-weeklist .tit i:before {
+  position: relative;
+  top: 11px;
+}
+
+.course-cont .course-weeklist .nav-stacked {
+  color: #999;
+}
+
+.course-cont .course-weeklist .nav-stacked li {
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.course-cont .course-weeklist .nav-stacked li i {
+  margin-right: 5px;
+}
+
+.course-cont .course-weeklist .nav-stacked li span {
+  border: solid 1px #ddd;
+  padding: 2px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.course-cont .course-weeklist .course-nav {
+  background: #999;
+  position: fixed;
+  width: 60px;
+  top: 40%;
+  left: 0px;
+  z-index: 11;
+}
+
+.course-cont .course-weeklist .course-nav li {
+  padding: 0px;
+}
+
+.course-cont .course-weeklist .course-nav li:hover, .course-cont .course-weeklist .course-nav a:hover {
+  background: #57bc4c;
+}
+
+.course-cont .course-weeklist .course-nav a {
+  color: #fff;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.course-cont .course-weeklist .course-nav .active {
+  background: #57bc4c;
+}

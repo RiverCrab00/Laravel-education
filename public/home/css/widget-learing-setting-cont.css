@@ -1,0 +1,130 @@
+/*
+ * colors variables
+ */
+html, body {
+  min-height: 100%;
+  min-width: 1366px;
+  background: #f4f4f4;
+}
+
+a {
+  color: #2da1e7;
+}
+
+a:hover {
+  color: #2da1e7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0;
+  line-height: 200%;
+}
+
+em, i {
+  font-style: normal;
+}
+
+.cr-pd-mr {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cl-red {
+  color: red !important;
+}
+
+.more {
+  color: #2da1e7;
+}
+
+.hv-poin:hover {
+  cursor: pointer;
+}
+
+.pd-left {
+  padding-left: 15px;
+}
+
+.pd-rit {
+  padding-right: 15px;
+}
+
+.btn-primary {
+  background: #57bc4c;
+  border: none;
+}
+
+.learing-setting-cont {
+  background: #fff;
+  margin-top: 10px;
+}
+
+.learing-setting-cont .nav-tabs {
+  border: 0px;
+}
+
+.learing-setting-cont .nav-tabs li {
+  border-bottom: solid 2px #fff;
+}
+
+.learing-setting-cont .nav-tabs li a {
+  margin: 0px;
+}
+
+.learing-setting-cont .nav-tabs li.active > a, .learing-setting-cont .nav-tabs .nav-tabs > li.active > a:hover, .learing-setting-cont .nav-tabs .nav-tabs > li.active > a:focus {
+  border: 0px;
+  background: #fff;
+}
+
+.learing-setting-cont .nav-tabs .active {
+  border-bottom: solid 2px #57bc4c;
+}
+
+.learing-setting-cont .tab-content {
+  padding: 30px 20px;
+  min-height: 650px;
+}
+
+.learing-setting-cont .tab-content .addr {
+  padding-right: 0px;
+}
+
+.learing-setting-cont .tab-content .control-label {
+  text-align: left;
+}
+
+.learing-setting-cont .tab-content .head-ico {
+  display: inline-block;
+  padding: 0px;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.learing-setting-cont .tab-content .head-ico img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.learing-setting-cont .tab-content .up-ico {
+  display: inline-block;
+  padding: 5px 30px;
+  font-size: 24px;
+  border: solid 1px #57bc4c;
+  position: relative;
+  top: -11px;
+  color: #57bc4c;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.learing-setting-cont .tab-content .up-ico input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.learing-setting-cont .tab-content .change-pass .col-md-1 {
+  padding-right: 0 !important;
+}

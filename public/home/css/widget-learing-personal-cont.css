@@ -1,0 +1,315 @@
+/*
+ * colors variables
+ */
+html, body {
+  min-height: 100%;
+  min-width: 1366px;
+  background: #f4f4f4;
+}
+
+a {
+  color: #2da1e7;
+}
+
+a:hover {
+  color: #2da1e7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0;
+  line-height: 200%;
+}
+
+em, i {
+  font-style: normal;
+}
+
+.cr-pd-mr {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cl-red {
+  color: red !important;
+}
+
+.more {
+  color: #2da1e7;
+}
+
+.hv-poin:hover {
+  cursor: pointer;
+}
+
+.pd-left {
+  padding-left: 15px;
+}
+
+.pd-rit {
+  padding-right: 15px;
+}
+
+.btn-primary {
+  background: #57bc4c;
+  border: none;
+}
+
+.personal-cont {
+  background: #fff;
+  padding: 0px 50px 50px 50px;
+}
+
+.personal-cont .top .tit {
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.personal-cont .top .tit span {
+  display: inline-block;
+  border-bottom: solid 2px #57bc4c;
+}
+
+.personal-cont .top .top-cont {
+  position: relative;
+  border: solid 1px #999;
+  padding: 10px 15px 10px 30px;
+  box-shadow: 2px 2px 4px #999;
+}
+
+.personal-cont .top .top-cont .imgIco {
+  position: absolute;
+  left: -55px;
+  top: 10px;
+}
+
+.personal-cont .top .top-cont .imgIco img {
+  border-radius: 50%;
+}
+
+.personal-cont .top .top-cont .title {
+  font-size: 26px;
+}
+
+.personal-cont .top .top-cont .about {
+  font-size: 18px;
+}
+
+.personal-cont .top .top-cont .about span {
+  font-size: 16px;
+}
+
+.personal-cont .top .top-cont .rate {
+  margin-top: 40px;
+}
+
+.personal-cont .top .top-cont .rate li {
+  display: inline-block;
+  list-style: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #bdbdbd;
+}
+
+.personal-cont .top .top-cont .rate .active {
+  background: #999;
+}
+
+.personal-cont .top .top-cont .text-right:after {
+  content: '...';
+  font-size: 80px;
+  position: absolute;
+  line-height: 10px;
+  right: 0;
+  top: -20px;
+  text-align: right;
+}
+
+.personal-cont .top .top-cont .btn-primary {
+  position: relative;
+  top: 50px;
+}
+
+.personal-cont .my-course {
+  padding: 0px;
+}
+
+.personal-cont .my-course .tit {
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.personal-cont .my-course .tit .active {
+  border-bottom: solid 2px #57bc4c;
+}
+
+.personal-cont .my-course .tit span {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.personal-cont .my-course .cont .col-lg-6 {
+  padding: 0px;
+}
+
+.personal-cont .my-course .cont .item {
+  border: solid 1px #999;
+  position: relative;
+  box-shadow: 2px 2px 4px #999;
+}
+
+.personal-cont .my-course .cont .item .imgIco {
+  position: absolute;
+  left: -25px;
+  top: 30px;
+}
+
+.personal-cont .my-course .cont .item .imgIco img {
+  border-radius: 50%;
+}
+
+.personal-cont .my-course .cont .item .title {
+  padding: 15px 15px 0px 30px;
+  font-size: 26px;
+}
+
+.personal-cont .my-course .cont .item .about {
+  padding: 0px 15px 0px 30px;
+  font-size: 18px;
+}
+
+.personal-cont .my-course .cont .item .time {
+  padding: 0px 15px 0px 30px;
+  font-size: 16px;
+}
+
+.personal-cont .my-course .cont .item .rate {
+  margin-top: 40px;
+  padding: 0px 15px 15px 30px;
+}
+
+.personal-cont .my-course .cont .item .rate li {
+  display: inline-block;
+  list-style: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #bdbdbd;
+}
+
+.personal-cont .my-course .cont .item .rate .active {
+  background: #999;
+}
+
+.personal-cont .my-course .cont .item div:last-child {
+  border-top: solid 1px #999;
+  padding: 10px 0;
+}
+
+.personal-cont .my-course .cont .item:after {
+  content: '...';
+  font-size: 80px;
+  position: absolute;
+  line-height: 10px;
+  right: 0;
+  top: -10px;
+  text-align: right;
+}
+
+.personal-cont .my-course .cont .col-lg-6:nth-child(2n+1) .item {
+  margin: 10px 20px 10px 0;
+}
+
+.personal-cont .my-course .cont .col-lg-6:nth-child(2n) .item {
+  margin: 10px 0px 10px 20px;
+}
+
+.personal-cont .my-collection {
+  padding: 0px;
+}
+
+.personal-cont .my-collection .col-lg-6 {
+  padding: 0px;
+}
+
+.personal-cont .my-collection .tit {
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.personal-cont .my-collection .tit span {
+  display: inline-block;
+  border-bottom: solid 2px #57bc4c;
+}
+
+.personal-cont .my-collection .item {
+  border: solid 1px #999;
+  position: relative;
+  box-shadow: 2px 2px 4px #999;
+}
+
+.personal-cont .my-collection .item .title {
+  padding: 15px 15px 0px 30px;
+  font-size: 26px;
+}
+
+.personal-cont .my-collection .item .about {
+  padding: 0px 15px 0px 30px;
+  font-size: 18px;
+}
+
+.personal-cont .my-collection .item .time {
+  padding: 0px 15px 0px 30px;
+  font-size: 16px;
+}
+
+.personal-cont .my-collection .item .rate {
+  margin-top: 40px;
+  padding: 0px 15px 15px 30px;
+}
+
+.personal-cont .my-collection .item .rate li {
+  display: inline-block;
+  list-style: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #bdbdbd;
+}
+
+.personal-cont .my-collection .item .rate .active {
+  background: #999;
+}
+
+.personal-cont .my-collection .item div:last-child {
+  border-top: solid 1px #999;
+  padding: 10px 0;
+}
+
+.personal-cont .my-collection .item:after {
+  content: '...';
+  font-size: 80px;
+  position: absolute;
+  line-height: 60px;
+  right: 0;
+  top: -40px;
+  text-align: right;
+}
+
+.personal-cont .my-collection .col-lg-6:nth-child(2n+1) .item {
+  margin: 10px 20px 10px 0;
+}
+
+.personal-cont .my-collection .col-lg-6:nth-child(2n) .item {
+  margin: 10px 0px 10px 20px;
+}

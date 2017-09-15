@@ -1,0 +1,220 @@
+/*
+ * colors variables
+ */
+html, body {
+  min-height: 100%;
+  min-width: 1366px;
+  background: #f4f4f4;
+}
+
+a {
+  color: #2da1e7;
+}
+
+a:hover {
+  color: #2da1e7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0;
+  line-height: 200%;
+}
+
+em, i {
+  font-style: normal;
+}
+
+.cr-pd-mr {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cl-red {
+  color: red !important;
+}
+
+.more {
+  color: #2da1e7;
+}
+
+.hv-poin:hover {
+  cursor: pointer;
+}
+
+.pd-left {
+  padding-left: 15px;
+}
+
+.pd-rit {
+  padding-right: 15px;
+}
+
+.btn-primary {
+  background: #57bc4c;
+  border: none;
+}
+
+/*
+ * colors variables
+ */
+header {
+  /*
+     * nav-color, menu-color, mouseover-color
+     */
+}
+
+header a {
+  color: #333;
+}
+
+header a:hover {
+  color: #f63;
+  text-decoration: none;
+}
+
+header .navbar {
+  border-radius: 0px;
+}
+
+header .navbar-nav {
+  font-size: 16px;
+  margin: 0 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+header .navbar-right {
+  margin-top: 12px;
+  margin-right: 0px;
+}
+
+header .navbar-right a {
+  color: #57bc4c;
+}
+
+header .learingHeader {
+  background: #fff;
+  border-bottom: solid 2px #57bc4c;
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+header input {
+  height: 35px;
+  margin-top: 7px;
+}
+
+header .input-search {
+  border: solid 2px #57bc4c;
+  width: 280px;
+  padding-left: 10px;
+}
+
+header .search-buttom {
+  border: solid 2px #57bc4c;
+  background: #57bc4c;
+  color: #fff;
+  font-weight: bold;
+  width: 80px;
+}
+
+/*
+ * colors variables
+ */
+footer {
+  width: 100%;
+  background: #fff;
+  margin-top: 20px;
+  padding: 40px 0;
+  line-height: 260%;
+}
+
+footer .btn-primary {
+  min-width: 100px;
+  margin-top: 10px;
+}
+
+footer img {
+  position: relative;
+  top: -8px;
+  left: 0px;
+}
+
+footer dt {
+  margin-bottom: 20px;
+}
+
+footer dd {
+  line-height: 200%;
+}
+
+.problem-head {
+  width: 100%;
+  background: #fff;
+}
+
+.problem-feedback .top {
+  background: #fff;
+  color: #57bc4c;
+  padding: 10px;
+}
+
+.problem-feedback .problem-form {
+  background: #fff;
+  margin-top: 15px;
+  padding: 20px 10px;
+}
+
+.problem-feedback .problem-form .tit {
+  position: relative;
+  left: -10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: solid 8px #57bc4c;
+}
+
+.problem-feedback .problem-form .table th, .problem-feedback .problem-form .table td {
+  border: none;
+}
+
+.problem-feedback .problem-form .table th {
+  width: 120px;
+}
+
+.problem-feedback .problem-form .content {
+  width: 500px;
+}
+
+.problem-feedback .problem-form .phone {
+  max-width: 300px;
+}
+
+.problem-feedback .problem-form .prompt {
+  width: 320px;
+  height: 500px;
+  padding-top: 200px;
+  margin: 0 auto;
+  font-size: 38px;
+}
+
+.problem-feedback .problem-form .prompt p {
+  margin: 0px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.problem-feedback .problem-form .prompt p:nth-child(2) {
+  font-size: 12px;
+}
+
+.problem-feedback .problem-form .Verification-Code {
+  max-width: 120px;
+}
+
+.problem-feedback .problem-form .btn-primary {
+  padding: 10px 50px;
+  font-size: 18px;
+}

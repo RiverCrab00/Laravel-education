@@ -1,0 +1,33 @@
+/*
+ * colors variables
+ */
+.index-bot-video {
+  background: #fff;
+  margin: 20px 0;
+}
+
+.index-bot-video .tit {
+  font-size: 32px;
+  line-height: 50px;
+  margin: 20px 0;
+  padding: 0 30px;
+  display: inline-block;
+  border-bottom: solid 2px #57bc4c;
+}
+
+.index-bot-video .row {
+  padding-bottom: 20px;
+}
+
+.index-bot-video .text-left {
+  font-size: 18px;
+  padding-left: 40px;
+}
+
+.index-bot-video .text-left .tit {
+  border: none !important;
+  font-size: 22px;
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+  color: #57bc4c;
+}

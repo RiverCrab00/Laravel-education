@@ -1,0 +1,212 @@
+/*
+ * colors variables
+ */
+html, body {
+  min-height: 100%;
+  min-width: 1366px;
+  background: #f4f4f4;
+}
+
+a {
+  color: #2da1e7;
+}
+
+a:hover {
+  color: #2da1e7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0;
+  line-height: 200%;
+}
+
+em, i {
+  font-style: normal;
+}
+
+.cr-pd-mr {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cl-red {
+  color: red !important;
+}
+
+.more {
+  color: #2da1e7;
+}
+
+.hv-poin:hover {
+  cursor: pointer;
+}
+
+.pd-left {
+  padding-left: 15px;
+}
+
+.pd-rit {
+  padding-right: 15px;
+}
+
+.btn-primary {
+  background: #57bc4c;
+  border: none;
+}
+
+.page-index-cont .title {
+  background: #fff;
+  padding: 30px 0;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.page-index-cont .teach-info {
+  background: #fff;
+  margin: 20px 0;
+}
+
+.page-index-cont .teach-info .top {
+  padding: 10px 15px 15px 15px;
+  border-bottom: solid 1px #f4f4f4;
+}
+
+.page-index-cont .teach-info .top .ico {
+  display: inline-block;
+}
+
+.page-index-cont .teach-info .top .ico img {
+  border-radius: 50%;
+}
+
+.page-index-cont .teach-info .top .name {
+  display: inline-block;
+  font-size: 22px;
+  position: relative;
+  top: 12px;
+  margin-left: 14px;
+}
+
+.page-index-cont .teach-info .top .about {
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  top: 13px;
+  margin-left: 10px;
+  color: #787d82;
+}
+
+.page-index-cont .teach-info .top .close {
+  margin-top: 10px;
+}
+
+.page-index-cont .teach-info .info-text {
+  padding: 15px;
+}
+
+.page-index-cont .course-info {
+  background: #fff;
+  margin: 20px 0;
+  position: relative;
+  padding: 10px 20px;
+}
+
+.page-index-cont .course-info .bottom {
+  margin: 30px 0 15px 0;
+}
+
+.page-index-cont .course-info .bottom .speed-item .act {
+  background: #787d82;
+}
+
+.page-index-cont .course-info .bottom .speed-item span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f4f4f4;
+  margin-right: 10px;
+}
+
+.page-index-cont .course-info .bottom .speed-item em {
+  display: inline-block;
+  position: relative;
+  bottom: 4px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.page-index-cont .course-list .list-cls {
+  height: 45px;
+  overflow: hidden;
+  padding: 5px 20px;
+  transition: 1s;
+  background: #fff;
+  margin: 20px 0;
+  line-height: 40px;
+  font-size: 18px;
+  border-bottom: solid 1px #f4f4f4;
+}
+
+.page-index-cont .course-list .list-cls .tit {
+  border-bottom: solid 1px #f4f4f4;
+  color: #333;
+}
+
+.page-index-cont .course-list .list-cls .tit span:first-child {
+  margin-right: 20px;
+}
+
+.page-index-cont .course-list .list-cls .drop-down {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.page-index-cont .course-list .list-cls .drop-down .top h4 {
+  display: inline-block;
+}
+
+.page-index-cont .course-list .list-cls .drop-down .top span {
+  color: #787d82;
+}
+
+.page-index-cont .course-list .list-cls .drop-down .top .info {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.page-index-cont .course-list .list-cls .drop-down .cont-item div {
+  border-bottom: dashed 1px #bdbdbd;
+}
+
+.page-index-cont .course-list .list-cls .drop-down .cont-item div:last-child {
+  border-bottom: none;
+  margin-bottom: 15px;
+}
+
+.page-index-cont .course-list .list-cls .drop-down .cont-item .tit {
+  border-bottom: solid 1px #787d82;
+}
+
+.page-index-cont .course-list .list-cls .drop-down .cont-item .tit i {
+  margin-right: 5px;
+}
+
+.page-index-cont .course-list .list-cls .drop-down .cont-item .item {
+  padding-left: 15px;
+}
+
+.page-index-cont .course-list .list-cls .drop-down .cont-item .item span em {
+  border: solid 1px #ddd;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.page-index-cont .course-list .glyphicon-save:before {
+  position: relative;
+  top: 1px;
+  font-size: 16px;
+  padding-right: 10px;
+  color: #787d82;
+}

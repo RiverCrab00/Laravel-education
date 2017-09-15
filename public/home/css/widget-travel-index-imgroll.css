@@ -1,0 +1,22 @@
+.travel-index-imgroll {
+  float: left;
+  height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .travel-index-imgroll {
+    width: 1366px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .travel-index-imgroll {
+    width: 100%;
+    position: absolute;
+  }
+}
+
+.travel-index-imgroll .carousel-inner .item img {
+  width: 100%;
+  height: 393px;
+}

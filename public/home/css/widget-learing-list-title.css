@@ -1,0 +1,47 @@
+/*
+ * colors variables
+ */
+.learing-list {
+  background: #fff;
+  border: solid 1px #ccc;
+  padding: 20px;
+}
+
+.learing-list .btn-default {
+  border-radius: 0px !important;
+  background: #ccc;
+}
+
+.learing-list table tr {
+  border-bottom: solid 1px #ccc;
+}
+
+.learing-list table th {
+  width: 70px;
+}
+
+.learing-list table th, .learing-list table td {
+  border: none !important;
+  padding: 10px 0 !important;
+}
+
+.learing-list table .btn:hover, .learing-list table .active {
+  border-radius: 0px;
+  box-shadow: none;
+  background: #f4f4f4 !important;
+}
+
+.learing-list table .more {
+  position: absolute;
+  color: #337ab7;
+  bottom: 12px;
+  right: 0px;
+}
+
+.learing-list a {
+  color: #333;
+}
+
+.learing-list a:hover {
+  color: #333;
+}

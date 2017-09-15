@@ -1,0 +1,102 @@
+/*
+ * colors variables
+ */
+.conten-list {
+  color: #333;
+}
+
+.conten-list .conten {
+  margin: 20px 0;
+  background: #fff;
+}
+
+.conten-list .cont-list-roll {
+  padding-bottom: 20px;
+  color: #999;
+  position: relative;
+}
+
+.conten-list .cont-list-roll .cont-list-box {
+  transition-duration: 1.5s;
+}
+
+.conten-list .cont-list-roll .next, .conten-list .cont-list-roll .prev {
+  z-index: 1;
+  display: none;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background: rgba(220, 220, 220, 0.5);
+  box-shadow: 0px 0px 3px #fff;
+  position: absolute;
+  top: 50px;
+  right: -5px;
+  color: #999;
+}
+
+.conten-list .cont-list-roll .prev {
+  left: -30px;
+}
+
+.conten-list .cont-list-roll li {
+  display: inline-block;
+}
+
+.conten-list .cont-list-roll li .tit {
+  color: #4c5a65;
+  font-size: 16px;
+  line-height: 200%;
+  position: relative;
+}
+
+.conten-list .cont-list-roll li span {
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 50%;
+}
+
+.conten-list .cont-list-roll img {
+  width: 219px;
+  height: 135px;
+}
+
+.conten-list .top {
+  padding: 20px 0;
+}
+
+.conten-list .top .text-left {
+  color: #333;
+  font-size: 24px;
+  margin-left: 15px;
+  border-left: solid 2px #57bc4c;
+}
+
+.conten-list .top .ck-all {
+  color: #57bc4c;
+  border-color: #57bc4c;
+}
+
+.conten-list .top .active {
+  box-shadow: none;
+  border-bottom: solid 2px #57bc4c !important;
+}
+
+.conten-list .top .btn-primary {
+  background: none;
+  color: #57bc4c;
+  font-size: 18px;
+  border: none;
+  border-radius: 0px;
+  font-weight: bold;
+}

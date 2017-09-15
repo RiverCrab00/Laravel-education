@@ -1,0 +1,120 @@
+/*
+ * colors variables
+ */
+.travel-index-nav {
+  position: relative;
+  float: left;
+  width: 190px;
+  height: 100%;
+}
+
+.travel-index-nav a {
+  color: #797979;
+}
+
+.travel-index-nav a:hover {
+  color: #57bc4c;
+  text-decoration: none;
+}
+
+.travel-index-nav .citylistbox {
+  border: 2px solid #57bc4c;
+  border-top-width: 1px;
+  background: #fff;
+}
+
+.travel-index-nav .citylistbox .title {
+  line-height: 30px;
+  font-size: 16px;
+  background: #57bc4c;
+  font-weight: bold;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.travel-index-nav .citylistbox .listbox {
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid transparent;
+}
+
+.travel-index-nav .citylistbox .listbox:first-child {
+  border-top: 1px solid #57bc4c;
+}
+
+.travel-index-nav .citylistbox .listbox:last-child {
+  border-bottom: none;
+}
+
+.travel-index-nav .citylistbox .listbox .list {
+  overflow: hidden;
+  position: relative;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.travel-index-nav .citylistbox .listbox .list .icon {
+  width: 28px;
+  height: 28px;
+  float: left;
+}
+
+.travel-index-nav .citylistbox .listbox .list dl {
+  width: 242px;
+  margin: 0;
+}
+
+.travel-index-nav .citylistbox .listbox .list dl dt {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.travel-index-nav .citylistbox .listbox .list dl dt::after {
+  content: '>';
+  position: absolute;
+  right: 0px;
+  color: #333;
+}
+
+.travel-index-nav .citylistbox .listbox .box {
+  display: none;
+  height: 393px !important;
+  _height: 289px;
+  *height: 289px;
+  width: 329px;
+  position: absolute;
+  margin-left: 186px;
+  top: 0;
+  padding: 12px;
+  background-color: #fff;
+  border: 2px solid #57bc4c;
+  z-index: 20;
+}
+
+.travel-index-nav .citylistbox .hover {
+  width: 200px;
+  background-color: #fff;
+  border-top: 1px solid #57bc4c;
+  border-bottom: 1px solid #57bc4c;
+  z-index: 21;
+}
+
+.travel-index-nav .citylistbox .hover.listbox .list dt::after {
+  content: '';
+}
+
+.travel-index-nav .citylistbox .hover:first-child {
+  border-top: 1px solid #57bc4c;
+  margin-top: 0;
+}
+
+.travel-index-nav .citylistbox .hover:last-child {
+  border-bottom: none;
+}
+
+.travel-index-nav .citylistbox .hover .list {
+  border: 0;
+  z-index: 21;
+}

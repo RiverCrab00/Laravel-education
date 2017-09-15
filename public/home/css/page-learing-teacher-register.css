@@ -1,0 +1,337 @@
+@charset "UTF-8";
+/*
+ * colors variables
+ */
+html, body {
+  min-height: 100%;
+  min-width: 1366px;
+  background: #f4f4f4;
+}
+
+a {
+  color: #2da1e7;
+}
+
+a:hover {
+  color: #2da1e7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0;
+  line-height: 200%;
+}
+
+em, i {
+  font-style: normal;
+}
+
+.cr-pd-mr {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cl-red {
+  color: red !important;
+}
+
+.more {
+  color: #2da1e7;
+}
+
+.hv-poin:hover {
+  cursor: pointer;
+}
+
+.pd-left {
+  padding-left: 15px;
+}
+
+.pd-rit {
+  padding-right: 15px;
+}
+
+.btn-primary {
+  background: #57bc4c;
+  border: none;
+}
+
+/*
+ * colors variables
+ */
+header {
+  /*
+     * nav-color, menu-color, mouseover-color
+     */
+}
+
+header a {
+  color: #333;
+}
+
+header a:hover {
+  color: #f63;
+  text-decoration: none;
+}
+
+header .navbar {
+  border-radius: 0px;
+}
+
+header .navbar-nav {
+  font-size: 16px;
+  margin: 0 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+header .navbar-right {
+  margin-top: 12px;
+  margin-right: 0px;
+}
+
+header .navbar-right a {
+  color: #57bc4c;
+}
+
+header .learingHeader {
+  background: #fff;
+  border-bottom: solid 2px #57bc4c;
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+header input {
+  height: 35px;
+  margin-top: 7px;
+}
+
+header .input-search {
+  border: solid 2px #57bc4c;
+  width: 280px;
+  padding-left: 10px;
+}
+
+header .search-buttom {
+  border: solid 2px #57bc4c;
+  background: #57bc4c;
+  color: #fff;
+  font-weight: bold;
+  width: 80px;
+}
+
+/*
+ * colors variables
+ */
+footer {
+  width: 100%;
+  background: #fff;
+  margin-top: 20px;
+  padding: 40px 0;
+  line-height: 260%;
+}
+
+footer .btn-primary {
+  min-width: 100px;
+  margin-top: 10px;
+}
+
+footer img {
+  position: relative;
+  top: -8px;
+  left: 0px;
+}
+
+footer dt {
+  margin-bottom: 20px;
+}
+
+footer dd {
+  line-height: 200%;
+}
+
+.wrap {
+  width: 1170px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+/*头部*/
+.register-head {
+  background: #fff;
+  box-shadow: 2px 2px 2px #f4f4f4;
+}
+
+.register-head .logo {
+  display: block;
+  padding: 15px 0;
+  float: left;
+  margin-left: 20px;
+}
+
+.register-head .logo img {
+  display: block;
+}
+
+.register-head .gologin {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #57bc4c;
+}
+
+/*尾部*/
+.register-footer {
+  overflow: hidden;
+  line-height: 24px;
+  background: #fff;
+}
+
+.register-footer ul {
+  overflow: hidden;
+  margin: 20px;
+}
+
+.register-footer ul li {
+  display: inline-block;
+}
+
+.register-footer ul li a {
+  padding: 0 20px;
+  color: #333;
+  position: relative;
+}
+
+.register-footer ul li a:hover {
+  color: #57bc4c;
+}
+
+.register-footer ul li a:after {
+  content: " ";
+  display: block;
+  height: 14px;
+  width: 1px;
+  background: #333;
+  position: absolute;
+  top: 2px;
+  right: 0;
+}
+
+/*注册body*/
+.register-body {
+  background: #fff;
+  border-top: solid 2px #57bc4c;
+  border-bottom: solid 1px #f4f4f4;
+  position: relative;
+}
+
+.register-body .register-ico {
+  position: absolute;
+  left: 50%;
+  margin-left: -540px;
+  top: 23%;
+}
+
+.register-body .r-position {
+  position: absolute;
+  box-shadow: 1px 1px 2px #f4f4f4;
+  top: 50%;
+  left: 50%;
+  margin-left: 120px;
+  background: #fff;
+  border: 1px solid #f5f5f5;
+  padding: 30px 40px 10px;
+  /*间距*/
+  /*输入框*/
+  /*selelct*/
+  /*所在地*/
+  /*生日*/
+  /*验证码 输入框和图片*/
+  /*验证文字*/
+  /*按钮*/
+  /*协议链接*/
+}
+
+.register-body .r-position li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.register-body .r-position .page-header {
+  margin: -10px -40px 30px;
+  padding-left: 40px;
+}
+
+.register-body .r-position .form-group {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.register-body .r-position label {
+  font-weight: normal;
+}
+
+.register-body .r-position .form-control {
+  display: inline-block;
+  width: 230px;
+}
+
+.register-body .r-position select {
+  float: left;
+}
+
+.register-body .r-position select + select {
+  margin-left: 10px;
+}
+
+.register-body .r-position .select2 .form-control {
+  width: 110px;
+}
+
+.register-body .r-position .select3 .form-control {
+  width: 80px;
+}
+
+.register-body .r-position .select3 .month-day {
+  width: 65px;
+}
+
+.register-body .r-position .verif input {
+  width: 127px;
+  float: left;
+  margin-right: 20px;
+}
+
+.register-body .r-position .verif img {
+  float: left;
+  width: 66px;
+  margin-right: 4px;
+}
+
+.register-body .r-position .verif-span {
+  color: #f63;
+  position: absolute;
+  bottom: -18px;
+  left: 15px;
+  display: none;
+}
+
+.register-body .r-position .btn {
+  width: 230px;
+}
+
+.register-body .r-position a {
+  color: #57bc4c;
+}
+
+.register-body .r-position .mag-left {
+  margin-left: 90px;
+}
+
+.register-body .teacher {
+  width: 450px;
+  height: 700px;
+  margin-top: -350px;
+}

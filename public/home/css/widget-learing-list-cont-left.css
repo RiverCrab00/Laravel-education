@@ -1,0 +1,82 @@
+/*
+ * colors variables
+ */
+.list-cont-left {
+  background: #fff;
+  margin: 15px 0px;
+  padding: 15px;
+}
+
+.list-cont-left .tit {
+  margin-bottom: 10px;
+}
+
+.list-cont-left .tit ul {
+  border: none;
+}
+
+.list-cont-left .tit li {
+  border: none;
+}
+
+.list-cont-left .tit .active {
+  border-bottom: solid 2px #57bc4c;
+}
+
+.list-cont-left .tit .nav-tabs > li.active > a, .list-cont-left .tit .nav-tabs > li.active > a:hover, .list-cont-left .tit .nav-tabs > li.active > a:focus {
+  border: none;
+}
+
+.list-cont-left .tit .page {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.list-cont-left .tit .page a {
+  text-decoration: none;
+  width: 20px;
+  height: 20px;
+  line-height: 19px;
+  background: #f4f4f4;
+  color: #999;
+  text-align: center;
+  display: inline-block;
+  border: solid 1px #999;
+  border-radius: 50%;
+}
+
+.list-cont-left .content-list {
+  background: #000000;
+}
+
+.list-cont-left .content-list li {
+  display: inline-block;
+  margin: 10px 2px;
+  float: left;
+}
+
+.list-cont-left .content-list li .tit {
+  color: #4c5a65;
+  font-size: 16px;
+  line-height: 200%;
+  position: relative;
+}
+
+.list-cont-left .content-list li span {
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 50%;
+}
+
+.list-cont-left .content-list img {
+  width: 200px;
+  height: 135px;
+}
