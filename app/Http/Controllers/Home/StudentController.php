@@ -42,8 +42,8 @@ eof;
     }
     public function sms(Request $request){
         $config=[
-            'accessKeyId'=>'LTAIh7A6op2uz4Mj',
-            'accessKeySecret'=>'AZMp0elpzbwFaPHUftAVbzwPbpT7so',
+            'accessKeyId'=>'',
+            'accessKeySecret'=>'',
         ];
         $mobile=$request->input('number');
         $client=new Client($config);
